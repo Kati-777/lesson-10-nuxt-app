@@ -5,9 +5,6 @@ export default defineNuxtConfig({
   nitro: {
     preset: 'vercel'
   },
-  build: {
-    transpile: ['pinia']
-  },
   app: {
     head: {
       title: 'Список покупок - Nuxt 3 Full-stack',
